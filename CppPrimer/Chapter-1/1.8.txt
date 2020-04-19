@@ -1,0 +1,4 @@
+std::cout << "/*";				- Legal
+std::cout << "*/";				- Legal
+std::cout << /* "/" /;			- Illegal
+std::cout << /* "" "/*" */;		- Illegal

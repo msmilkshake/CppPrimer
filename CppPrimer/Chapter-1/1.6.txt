@@ -1,0 +1,18 @@
+std::cout << "The sum of " << v1;
+<< " and " << v2;
+<< " is " << v1 + v2 << std::endl;
+
+The code above is lot legal because of the following:
+
+- The first line is a valid complete statement, which ends with a semicolon.
+If the value of variable v1 is 10, it outputs: "The sum of 10".
+
+- The second and third lines are both invalid. The first occourence of operator
+<< in both lines don't have a left hand operand, making it invalid. To fix this,
+we should add at the beginning of each line the ostream object: "std::cout".
+
+Code with suggested fixes:
+
+std::cout << "The sum of " << v1;
+std::cout << " and " << v2;
+std::cout << " is " << v1 + v2 << std::endl;

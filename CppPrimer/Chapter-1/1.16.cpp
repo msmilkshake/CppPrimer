@@ -8,7 +8,6 @@ int main()
 	{
 		sum += val;
 	}
-	std::cout << "THe sum of the entered numbers is: "
-		<< sum
-		<< '\n';
+	std::cout << "THe sum of the entered numbers is: " << sum << '\n';
+	return 0;
 }

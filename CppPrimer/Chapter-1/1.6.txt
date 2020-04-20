@@ -2,7 +2,7 @@ std::cout << "The sum of " << v1;
 << " and " << v2;
 << " is " << v1 + v2 << std::endl;
 
-The code above is lot legal because of the following:
+The code above is not legal because of the following:
 
 - The first line is a valid complete statement, which ends with a semicolon.
 If the value of variable v1 is 10, it outputs: "The sum of 10".

@@ -10,4 +10,5 @@ int main()
 		++val;
 	}
 	std::cout << "sum of numbers from 50 to 100 is: " << sum;
+	return 0;
 }
